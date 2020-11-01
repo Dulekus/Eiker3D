@@ -1,0 +1,224 @@
+body,html{
+    margin: 0;
+    font-family:  'Open Sans', sans-serif;
+    scroll-behavior: smooth;
+}
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+  background: rgb(226, 226, 226) ; 
+  border-left: 3px solid  #060606;
+  border-right: 3px solid  #060606;
+}
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+	background-color: rgb(226, 226, 226);
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+main{
+  background-color: #060606;
+  color: #bbb0b0; 
+}
+h1{
+  margin-bottom: 3.5rem !important;
+  letter-spacing: 0.1em !important;
+  font-family:'DM Sans', sans-serif;
+}
+h2{
+  text-align: center;
+  padding: 30px;
+  font-family:'DM Sans', sans-serif;
+  font-weight: 700;
+}
+h4{
+  font-family:'DM Sans', sans-serif;
+}
+p{
+  font-family:'DM Sans', sans-serif;
+}
+#header{
+  background: rgba(0, 0, 0, 0.8) !important ;
+  padding: 6px 80px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+.dropdown-menu{
+  background-color: #1f1f1f !important;
+}
+.dropdown-item{
+  color: #bbb0b0 !important;
+  background-color: #1f1f1f !important;
+}
+.dropdown-divider{
+  border-top: 1px solid rgb(0 0 0) !important;
+}
+.dropdown-item:hover{
+  color: #f7f7f7 !important;
+}
+.banner-background {
+  max-width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20%;
+  text-align: center;
+  color:#bbb0b0;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8),rgba(0, 0, 0, 0.8)), url(../images/matterport.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.banner-text div{
+  display:inline-block;
+  overflow:hidden;
+  white-space:nowrap;
+  font-size: 4em;
+  font-weight: bolder;
+}
+.text-start {
+  animation: showup 7s ;
+}
+.text-end span {
+  animation: slidein 7s ;
+}
+@keyframes showup {
+  0% {opacity:0;}
+  20% {opacity:1;}
+  80% {opacity:1;}
+  100% {opacity:1;}
+}
+@keyframes slidein {
+  0% { margin-left:-900px; }
+  20% { margin-left:-900px; }
+  35% { margin-left:0px; }
+  100% { margin-left:0px; }
+}
+.section-about{
+  padding: 80px; 
+  background-color: #040404;
+}
+.section-projects{
+  padding: 50px 80px 40px; 
+  text-align: center;
+  min-height: 60vh;
+}
+.container {
+  position: relative;
+  width: 100%;
+  max-width: 300px;
+}
+.section-projects  img{
+  width: 100%; 
+  -webkit-filter: grayscale(100%); 
+  filter: grayscale(100%);
+}
+.section-projects  img:hover{
+  width: 100%; 
+  -webkit-filter: grayscale(0%); 
+  filter: grayscale(0%);
+} 
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.overlay {
+  position: relative;
+  bottom: 70px;
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  width: 100%;
+  transition: .5s ease;
+  opacity:0;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+}
+.container:hover .overlay {
+  opacity: 1;
+}
+.section-scanning{
+  padding: 50px 80px; 
+  text-align: center;
+  min-height: 60vh;
+}
+.scanning-column{
+  padding: 0 80px !important;
+}
+.scanning-heading{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 40px;
+}
+.scanning-icon{
+  filter: invert(81%) sepia(6%) saturate(301%) hue-rotate(314deg) brightness(89%) contrast(88%);
+  width: 48px;
+  height: 48px;
+  margin-right: 20px;
+}
+.section-arch{
+  padding: 80px; 
+  background-color: #040404;
+}
+.back-pic-arch {
+  display: block;
+  width: 45%;
+  position: relative;
+  float: right;
+}
+.front-pic-arch{
+  position: absolute;
+  top: 29%;
+  right: 23%;
+  width: 55%;
+  z-index: 1;
+}
+.section-print{
+  padding: 80px; 
+  background-color: #040404;
+}
+.back-pic-print {
+  display: block;
+  width: 50%;
+  position: relative;
+}
+.front-pic-print{
+  position: absolute;
+  top: 31%;
+  right: 9%;
+  width: 60%;
+  z-index: 1;
+}
+.print-text{
+  padding-left: 70px !important;
+}
+.section-contact{
+  background-color: #000000;
+  color: #999;
+  padding-top: 70px;
+  padding-bottom: 70px;
+  
+}
+footer a{
+  color: #999;
+}
+footer a:hover {
+  color: #888;
+}
+
+* {box-sizing: border-box}
+
+
+
+
