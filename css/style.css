@@ -153,13 +153,13 @@ p{
   min-height: 60vh;
 }
 .scanning-column{
-  padding: 0 80px !important;
+  padding: 0 4% !important;
 }
 .scanning-heading{
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-bottom: 40px;
+  height: 110px;
 }
 .scanning-icon{
   filter: invert(81%) sepia(6%) saturate(301%) hue-rotate(314deg) brightness(89%) contrast(88%);
