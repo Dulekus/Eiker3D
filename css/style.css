@@ -208,12 +208,15 @@ p{
 .section-contact{
   background-color: #000000;
   color: #999;
-  padding-top: 70px;
+  padding-top: 50px;
   padding-bottom: 70px;
-  
+}
+.contact-title{
+  font-weight:600; 
+  margin-top: 20px;
 }
 footer a{
-  color: #999;
+  color: #53545a;
 }
 footer a:hover {
   color: #888;
