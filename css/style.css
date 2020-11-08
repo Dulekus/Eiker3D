@@ -84,9 +84,14 @@ p{
   display:inline-block;
   overflow:hidden;
   white-space:nowrap;
-  font-size: 4em;
+  font-size: 5vw;
   font-weight: bolder;
 }
+@media screen and (min-width: 1000px) {
+  .banner-text div {
+    font-size: 4vw;
+    }
+} 
 .text-start {
   animation: showup 7s ;
 }
@@ -223,7 +228,3 @@ footer a:hover {
 }
 
 * {box-sizing: border-box}
-
-
-
-
